@@ -1,0 +1,110 @@
+/* ---------------- GLOBAL ---------------- */
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* Title */
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Container */
+.container {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------------- SEARCH BAR ---------------- */
+#searchInput {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    height: 50px;
+}
+
+#searchInput::placeholder {
+    color: #cfd8dc;
+}
+
+#searchInput:focus {
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+    box-shadow: 0 0 10px #1976d2;
+}
+
+.btn-primary {
+    background: #1976d2;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background: #0d47a1;
+}
+
+/* ---------------- RESULTS ---------------- */
+#results {
+    margin-top: 25px;
+}
+
+/* Card Styling */
+.card {
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    color: #fff;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(4px);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Card Images */
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Card Title */
+.card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* ---------------- MODAL ---------------- */
+.modal-content {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    border: none;
+    backdrop-filter: blur(6px);
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-body img {
+    border-radius: 10px;
+}
+
+/* Ingredients bullets */
+ul li {
+    margin-bottom: 5px;
+}
