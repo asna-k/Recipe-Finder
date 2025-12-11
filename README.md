@@ -2,9 +2,9 @@
  **🍽️** **RECIPE FINDER**
  ##############################################################################################################################
 
-A simple and responsive web application that allows users to search for recipes using **ingredients** or **dish names**.  
-The app fetches recipe data from an external API and displays it as interactive cards.  
-Users can also view full recipe details through a Bootstrap modal.
+The Recipe Finder App is a web-based application that helps users discover recipes by entering an ingredient or the name of a dish.
+After the user submits a search term, the app displays a set of matching recipes in card format. Each recipe card can be clicked to view detailed
+information in a popup modal, including ingredients and preparation instructions.
 
 <img width="1791" height="850" alt="Screenshot 2025-12-12 024655" src="https://github.com/user-attachments/assets/ec582a56-4892-48e3-a31c-b23a3cbb7953" />
 
@@ -36,3 +36,10 @@ RecipeFinder/
 │── style.css
 │── script.js
 │── README.md
+
+Screenshot:
+
+<img width="1819" height="905" alt="Screenshot 2025-12-11 030257" src="https://github.com/user-attachments/assets/5fc676e8-877d-48d0-8486-21c3c9dd18fe" />
+
+
+<img width="1806" height="899" alt="Screenshot 2025-12-11 030435" src="https://github.com/user-attachments/assets/0b2c8f84-b544-44d7-a579-ac43ca175d9c" />
