@@ -1,5 +1,5 @@
 
- **🍽️** **RECIPE FINDER WEB APP**
+ **🍽️** **RECIPE FINDER**
  ##############################################################################################################################
 
 A simple and responsive web application that allows users to search for recipes using **ingredients** or **dish names**.  
