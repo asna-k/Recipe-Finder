@@ -6,7 +6,7 @@ A simple and responsive web application that allows users to search for recipes 
 The app fetches recipe data from an external API and displays it as interactive cards.  
 Users can also view full recipe details through a Bootstrap modal.
 
-
+<img width="1791" height="850" alt="Screenshot 2025-12-12 024655" src="https://github.com/user-attachments/assets/ec582a56-4892-48e3-a31c-b23a3cbb7953" />
 
 ## 🚀 Features
 - 🔍 Search recipes by ingredient or dish name  
